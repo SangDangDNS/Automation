@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HRMSuiteAutomation" verbose="1">
+    <parameter name="browserType" value="chrome"></parameter>
+    <parameter name="webUrl" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+    <test name="HRMTes">
+        <classes>
+            <class name="Automation.Testcase.RunTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
